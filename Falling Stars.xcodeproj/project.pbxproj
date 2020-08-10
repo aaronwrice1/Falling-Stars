@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9315D04719A83D2700AFCC7C /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315D04619A83D2700AFCC7C /* TitleViewController.m */; };
+		931F902D194E5D3600067BD6 /* Clouds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 931F902C194E5D3600067BD6 /* Clouds.jpg */; };
+		931F9034194E605A00067BD6 /* star1.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F902E194E605A00067BD6 /* star1.png */; };
+		931F9035194E605A00067BD6 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F902F194E605A00067BD6 /* star2.png */; };
+		931F9036194E605A00067BD6 /* star3.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F9030194E605A00067BD6 /* star3.png */; };
+		931F9037194E605A00067BD6 /* star4.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F9031194E605A00067BD6 /* star4.png */; };
+		931F9038194E605A00067BD6 /* star5.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F9032194E605A00067BD6 /* star5.png */; };
+		931F9039194E605A00067BD6 /* star6.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F9033194E605A00067BD6 /* star6.png */; };
+		931F9040194E6C8500067BD6 /* gameBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F903E194E6C8500067BD6 /* gameBackground4.png */; };
+		931F9041194E6C8500067BD6 /* gameBackground5.png in Resources */ = {isa = PBXBuildFile; fileRef = 931F903F194E6C8500067BD6 /* gameBackground5.png */; };
+		9328D454197495E10058198C /* ScoreBack4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9328D452197495E10058198C /* ScoreBack4.png */; };
+		9328D455197495E10058198C /* ScoreBack5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9328D453197495E10058198C /* ScoreBack5.png */; };
+		9338747B199FAABC00179BFD /* greenX80.png in Resources */ = {isa = PBXBuildFile; fileRef = 93387478199FAABC00179BFD /* greenX80.png */; };
+		9338747C199FAABC00179BFD /* greenX58.png in Resources */ = {isa = PBXBuildFile; fileRef = 93387479199FAABC00179BFD /* greenX58.png */; };
+		9338747D199FAABC00179BFD /* greenX120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338747A199FAABC00179BFD /* greenX120.png */; };
+		93387481199FACB400179BFD /* blueX80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338747E199FACB400179BFD /* blueX80.png */; };
+		93387482199FACB400179BFD /* blueX58.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338747F199FACB400179BFD /* blueX58.png */; };
+		93387483199FACB400179BFD /* blueX120.png in Resources */ = {isa = PBXBuildFile; fileRef = 93387480199FACB400179BFD /* blueX120.png */; };
+		9338748C199FAFC300179BFD /* load640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338748A199FAFC300179BFD /* load640x960.png */; };
+		9338748D199FAFC300179BFD /* load640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 9338748B199FAFC300179BFD /* load640x1136.png */; };
+		93610D5319A961C900A91833 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93610D5219A961C900A91833 /* AVFoundation.framework */; };
+		93610D5519A961D700A91833 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93610D5419A961D700A91833 /* AudioToolbox.framework */; };
+		9364DB69194B66C500C81B4F /* IPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9364DB68194B66C500C81B4F /* IPhone5.storyboard */; };
+		9365248119C516DF0057C093 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9365247E19C516DF0057C093 /* PlayButton.png */; };
+		9365248219C516DF0057C093 /* ScoreButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9365247F19C516DF0057C093 /* ScoreButton2.png */; };
+		9365248319C516DF0057C093 /* ScoreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9365248019C516DF0057C093 /* ScoreButton.png */; };
+		9365248719C51BE20057C093 /* playbutton0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9365248619C51BE20057C093 /* playbutton0.png */; };
+		938922A4194CC04B00F35391 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 938922A3194CC04B00F35391 /* ScoreViewController.m */; };
+		93B738C118ECFACF002A2D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738C018ECFACF002A2D37 /* Foundation.framework */; };
+		93B738C318ECFACF002A2D37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738C218ECFACF002A2D37 /* CoreGraphics.framework */; };
+		93B738C518ECFACF002A2D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738C418ECFACF002A2D37 /* UIKit.framework */; };
+		93B738CB18ECFACF002A2D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B738C918ECFACF002A2D37 /* InfoPlist.strings */; };
+		93B738CD18ECFACF002A2D37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B738CC18ECFACF002A2D37 /* main.m */; };
+		93B738D118ECFACF002A2D37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B738D018ECFACF002A2D37 /* AppDelegate.m */; };
+		93B738D418ECFACF002A2D37 /* IPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B738D218ECFACF002A2D37 /* IPhone4.storyboard */; };
+		93B738D718ECFACF002A2D37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B738D618ECFACF002A2D37 /* ViewController.m */; };
+		93B738D918ECFACF002A2D37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B738D818ECFACF002A2D37 /* Images.xcassets */; };
+		93B738E018ECFACF002A2D37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738DF18ECFACF002A2D37 /* XCTest.framework */; };
+		93B738E118ECFACF002A2D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738C018ECFACF002A2D37 /* Foundation.framework */; };
+		93B738E218ECFACF002A2D37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B738C418ECFACF002A2D37 /* UIKit.framework */; };
+		93B738EA18ECFACF002A2D37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B738E818ECFACF002A2D37 /* InfoPlist.strings */; };
+		93B738EC18ECFACF002A2D37 /* Falling_StarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B738EB18ECFACF002A2D37 /* Falling_StarsTests.m */; };
+		93D0028219B28632000CB156 /* BackgroundMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 93D0028119B28632000CB156 /* BackgroundMusic.m4a */; };
+		93F5536C1968A91300864CA5 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5536B1968A91300864CA5 /* GameKit.framework */; };
+		93F5536F1968AA3300864CA5 /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F5536E1968AA3300864CA5 /* GCHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B738E318ECFACF002A2D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B738B518ECFACF002A2D37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B738BC18ECFACF002A2D37;
+			remoteInfo = "Falling Stars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9315D04519A83D2700AFCC7C /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		9315D04619A83D2700AFCC7C /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		931F902C194E5D3600067BD6 /* Clouds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Clouds.jpg; sourceTree = "<group>"; };
+		931F902E194E605A00067BD6 /* star1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star1.png; sourceTree = "<group>"; };
+		931F902F194E605A00067BD6 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+		931F9030194E605A00067BD6 /* star3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star3.png; sourceTree = "<group>"; };
+		931F9031194E605A00067BD6 /* star4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star4.png; sourceTree = "<group>"; };
+		931F9032194E605A00067BD6 /* star5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star5.png; sourceTree = "<group>"; };
+		931F9033194E605A00067BD6 /* star6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star6.png; sourceTree = "<group>"; };
+		931F903E194E6C8500067BD6 /* gameBackground4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBackground4.png; sourceTree = "<group>"; };
+		931F903F194E6C8500067BD6 /* gameBackground5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameBackground5.png; sourceTree = "<group>"; };
+		9328D452197495E10058198C /* ScoreBack4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreBack4.png; sourceTree = "<group>"; };
+		9328D453197495E10058198C /* ScoreBack5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreBack5.png; sourceTree = "<group>"; };
+		93387478199FAABC00179BFD /* greenX80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenX80.png; sourceTree = "<group>"; };
+		93387479199FAABC00179BFD /* greenX58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenX58.png; sourceTree = "<group>"; };
+		9338747A199FAABC00179BFD /* greenX120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenX120.png; sourceTree = "<group>"; };
+		9338747E199FACB400179BFD /* blueX80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueX80.png; sourceTree = "<group>"; };
+		9338747F199FACB400179BFD /* blueX58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueX58.png; sourceTree = "<group>"; };
+		93387480199FACB400179BFD /* blueX120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueX120.png; sourceTree = "<group>"; };
+		9338748A199FAFC300179BFD /* load640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load640x960.png; sourceTree = "<group>"; };
+		9338748B199FAFC300179BFD /* load640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load640x1136.png; sourceTree = "<group>"; };
+		93610D5219A961C900A91833 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		93610D5419A961D700A91833 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9364DB68194B66C500C81B4F /* IPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = IPhone5.storyboard; sourceTree = "<group>"; };
+		9365247E19C516DF0057C093 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		9365247F19C516DF0057C093 /* ScoreButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton2.png; sourceTree = "<group>"; };
+		9365248019C516DF0057C093 /* ScoreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScoreButton.png; sourceTree = "<group>"; };
+		9365248619C51BE20057C093 /* playbutton0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton0.png; sourceTree = "<group>"; };
+		938922A2194CC04B00F35391 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		938922A3194CC04B00F35391 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		93B738BD18ECFACF002A2D37 /* Falling Stars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Falling Stars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B738C018ECFACF002A2D37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93B738C218ECFACF002A2D37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93B738C418ECFACF002A2D37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93B738C818ECFACF002A2D37 /* Falling Stars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Falling Stars-Info.plist"; sourceTree = "<group>"; };
+		93B738CA18ECFACF002A2D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B738CC18ECFACF002A2D37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B738CE18ECFACF002A2D37 /* Falling Stars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Falling Stars-Prefix.pch"; sourceTree = "<group>"; };
+		93B738CF18ECFACF002A2D37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93B738D018ECFACF002A2D37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93B738D318ECFACF002A2D37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IPhone4.storyboard; sourceTree = "<group>"; };
+		93B738D518ECFACF002A2D37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		93B738D618ECFACF002A2D37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93B738D818ECFACF002A2D37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93B738DE18ECFACF002A2D37 /* Falling StarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falling StarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B738DF18ECFACF002A2D37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93B738E718ECFACF002A2D37 /* Falling StarsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Falling StarsTests-Info.plist"; sourceTree = "<group>"; };
+		93B738E918ECFACF002A2D37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B738EB18ECFACF002A2D37 /* Falling_StarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Falling_StarsTests.m; sourceTree = "<group>"; };
+		93D0028119B28632000CB156 /* BackgroundMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundMusic.m4a; sourceTree = "<group>"; };
+		93F5536B1968A91300864CA5 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		93F5536D1968AA3300864CA5 /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCHelper.h; sourceTree = "<group>"; };
+		93F5536E1968AA3300864CA5 /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B738BA18ECFACF002A2D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93610D5519A961D700A91833 /* AudioToolbox.framework in Frameworks */,
+				93610D5319A961C900A91833 /* AVFoundation.framework in Frameworks */,
+				93F5536C1968A91300864CA5 /* GameKit.framework in Frameworks */,
+				93B738C318ECFACF002A2D37 /* CoreGraphics.framework in Frameworks */,
+				93B738C518ECFACF002A2D37 /* UIKit.framework in Frameworks */,
+				93B738C118ECFACF002A2D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B738DB18ECFACF002A2D37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B738E018ECFACF002A2D37 /* XCTest.framework in Frameworks */,
+				93B738E218ECFACF002A2D37 /* UIKit.framework in Frameworks */,
+				93B738E118ECFACF002A2D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93972116194B698E00D32D08 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				93972118194B69AA00D32D08 /* Background */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		93972118194B69AA00D32D08 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				931F902C194E5D3600067BD6 /* Clouds.jpg */,
+				9328D452197495E10058198C /* ScoreBack4.png */,
+				9328D453197495E10058198C /* ScoreBack5.png */,
+				931F903E194E6C8500067BD6 /* gameBackground4.png */,
+				931F903F194E6C8500067BD6 /* gameBackground5.png */,
+				9397211C194B702900D32D08 /* Stars */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		9397211C194B702900D32D08 /* Stars */ = {
+			isa = PBXGroup;
+			children = (
+				931F902E194E605A00067BD6 /* star1.png */,
+				931F902F194E605A00067BD6 /* star2.png */,
+				931F9030194E605A00067BD6 /* star3.png */,
+				931F9031194E605A00067BD6 /* star4.png */,
+				931F9032194E605A00067BD6 /* star5.png */,
+				931F9033194E605A00067BD6 /* star6.png */,
+			);
+			name = Stars;
+			sourceTree = "<group>";
+		};
+		93B738B418ECFACF002A2D37 = {
+			isa = PBXGroup;
+			children = (
+				93B738C618ECFACF002A2D37 /* Falling Stars */,
+				93B738E518ECFACF002A2D37 /* Falling StarsTests */,
+				93B738BF18ECFACF002A2D37 /* Frameworks */,
+				93B738BE18ECFACF002A2D37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B738BE18ECFACF002A2D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B738BD18ECFACF002A2D37 /* Falling Stars.app */,
+				93B738DE18ECFACF002A2D37 /* Falling StarsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B738BF18ECFACF002A2D37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93610D5419A961D700A91833 /* AudioToolbox.framework */,
+				93610D5219A961C900A91833 /* AVFoundation.framework */,
+				93F5536B1968A91300864CA5 /* GameKit.framework */,
+				93B738C018ECFACF002A2D37 /* Foundation.framework */,
+				93B738C218ECFACF002A2D37 /* CoreGraphics.framework */,
+				93B738C418ECFACF002A2D37 /* UIKit.framework */,
+				93B738DF18ECFACF002A2D37 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B738C618ECFACF002A2D37 /* Falling Stars */ = {
+			isa = PBXGroup;
+			children = (
+				9365248619C51BE20057C093 /* playbutton0.png */,
+				93B738CF18ECFACF002A2D37 /* AppDelegate.h */,
+				93B738D018ECFACF002A2D37 /* AppDelegate.m */,
+				93B738D218ECFACF002A2D37 /* IPhone4.storyboard */,
+				9364DB68194B66C500C81B4F /* IPhone5.storyboard */,
+				9315D04519A83D2700AFCC7C /* TitleViewController.h */,
+				9315D04619A83D2700AFCC7C /* TitleViewController.m */,
+				93B738D518ECFACF002A2D37 /* ViewController.h */,
+				93B738D618ECFACF002A2D37 /* ViewController.m */,
+				938922A2194CC04B00F35391 /* ScoreViewController.h */,
+				938922A3194CC04B00F35391 /* ScoreViewController.m */,
+				93B738D818ECFACF002A2D37 /* Images.xcassets */,
+				93387478199FAABC00179BFD /* greenX80.png */,
+				93387479199FAABC00179BFD /* greenX58.png */,
+				9338747A199FAABC00179BFD /* greenX120.png */,
+				9338747E199FACB400179BFD /* blueX80.png */,
+				9338747F199FACB400179BFD /* blueX58.png */,
+				93387480199FACB400179BFD /* blueX120.png */,
+				9338748A199FAFC300179BFD /* load640x960.png */,
+				9338748B199FAFC300179BFD /* load640x1136.png */,
+				93D0028119B28632000CB156 /* BackgroundMusic.m4a */,
+				9365247E19C516DF0057C093 /* PlayButton.png */,
+				9365247F19C516DF0057C093 /* ScoreButton2.png */,
+				9365248019C516DF0057C093 /* ScoreButton.png */,
+				93F553701968AA3E00864CA5 /* Game Center */,
+				93972116194B698E00D32D08 /* Images */,
+				93B738C718ECFACF002A2D37 /* Supporting Files */,
+			);
+			path = "Falling Stars";
+			sourceTree = "<group>";
+		};
+		93B738C718ECFACF002A2D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B738C818ECFACF002A2D37 /* Falling Stars-Info.plist */,
+				93B738C918ECFACF002A2D37 /* InfoPlist.strings */,
+				93B738CC18ECFACF002A2D37 /* main.m */,
+				93B738CE18ECFACF002A2D37 /* Falling Stars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93B738E518ECFACF002A2D37 /* Falling StarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B738EB18ECFACF002A2D37 /* Falling_StarsTests.m */,
+				93B738E618ECFACF002A2D37 /* Supporting Files */,
+			);
+			path = "Falling StarsTests";
+			sourceTree = "<group>";
+		};
+		93B738E618ECFACF002A2D37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B738E718ECFACF002A2D37 /* Falling StarsTests-Info.plist */,
+				93B738E818ECFACF002A2D37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93F553701968AA3E00864CA5 /* Game Center */ = {
+			isa = PBXGroup;
+			children = (
+				93F5536D1968AA3300864CA5 /* GCHelper.h */,
+				93F5536E1968AA3300864CA5 /* GCHelper.m */,
+			);
+			name = "Game Center";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B738BC18ECFACF002A2D37 /* Falling Stars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B738EF18ECFACF002A2D37 /* Build configuration list for PBXNativeTarget "Falling Stars" */;
+			buildPhases = (
+				93B738B918ECFACF002A2D37 /* Sources */,
+				93B738BA18ECFACF002A2D37 /* Frameworks */,
+				93B738BB18ECFACF002A2D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Falling Stars";
+			productName = "Falling Stars";
+			productReference = 93B738BD18ECFACF002A2D37 /* Falling Stars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B738DD18ECFACF002A2D37 /* Falling StarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B738F218ECFACF002A2D37 /* Build configuration list for PBXNativeTarget "Falling StarsTests" */;
+			buildPhases = (
+				93B738DA18ECFACF002A2D37 /* Sources */,
+				93B738DB18ECFACF002A2D37 /* Frameworks */,
+				93B738DC18ECFACF002A2D37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B738E418ECFACF002A2D37 /* PBXTargetDependency */,
+			);
+			name = "Falling StarsTests";
+			productName = "Falling StarsTests";
+			productReference = 93B738DE18ECFACF002A2D37 /* Falling StarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B738B518ECFACF002A2D37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Aaron;
+				TargetAttributes = {
+					93B738BC18ECFACF002A2D37 = {
+						DevelopmentTeam = 5BB7MVLL4D;
+					};
+					93B738DD18ECFACF002A2D37 = {
+						TestTargetID = 93B738BC18ECFACF002A2D37;
+					};
+				};
+			};
+			buildConfigurationList = 93B738B818ECFACF002A2D37 /* Build configuration list for PBXProject "Falling Stars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B738B418ECFACF002A2D37;
+			productRefGroup = 93B738BE18ECFACF002A2D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B738BC18ECFACF002A2D37 /* Falling Stars */,
+				93B738DD18ECFACF002A2D37 /* Falling StarsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B738BB18ECFACF002A2D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9338747B199FAABC00179BFD /* greenX80.png in Resources */,
+				931F902D194E5D3600067BD6 /* Clouds.jpg in Resources */,
+				931F9037194E605A00067BD6 /* star4.png in Resources */,
+				9328D454197495E10058198C /* ScoreBack4.png in Resources */,
+				9365248719C51BE20057C093 /* playbutton0.png in Resources */,
+				9365248319C516DF0057C093 /* ScoreButton.png in Resources */,
+				9365248119C516DF0057C093 /* PlayButton.png in Resources */,
+				931F9036194E605A00067BD6 /* star3.png in Resources */,
+				931F9041194E6C8500067BD6 /* gameBackground5.png in Resources */,
+				931F9040194E6C8500067BD6 /* gameBackground4.png in Resources */,
+				931F9038194E605A00067BD6 /* star5.png in Resources */,
+				931F9035194E605A00067BD6 /* star2.png in Resources */,
+				9338748D199FAFC300179BFD /* load640x1136.png in Resources */,
+				9365248219C516DF0057C093 /* ScoreButton2.png in Resources */,
+				93387481199FACB400179BFD /* blueX80.png in Resources */,
+				931F9034194E605A00067BD6 /* star1.png in Resources */,
+				93D0028219B28632000CB156 /* BackgroundMusic.m4a in Resources */,
+				9338747C199FAABC00179BFD /* greenX58.png in Resources */,
+				9364DB69194B66C500C81B4F /* IPhone5.storyboard in Resources */,
+				9338747D199FAABC00179BFD /* greenX120.png in Resources */,
+				93B738D918ECFACF002A2D37 /* Images.xcassets in Resources */,
+				93B738CB18ECFACF002A2D37 /* InfoPlist.strings in Resources */,
+				93B738D418ECFACF002A2D37 /* IPhone4.storyboard in Resources */,
+				9328D455197495E10058198C /* ScoreBack5.png in Resources */,
+				931F9039194E605A00067BD6 /* star6.png in Resources */,
+				9338748C199FAFC300179BFD /* load640x960.png in Resources */,
+				93387483199FACB400179BFD /* blueX120.png in Resources */,
+				93387482199FACB400179BFD /* blueX58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B738DC18ECFACF002A2D37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B738EA18ECFACF002A2D37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B738B918ECFACF002A2D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938922A4194CC04B00F35391 /* ScoreViewController.m in Sources */,
+				9315D04719A83D2700AFCC7C /* TitleViewController.m in Sources */,
+				93B738D718ECFACF002A2D37 /* ViewController.m in Sources */,
+				93F5536F1968AA3300864CA5 /* GCHelper.m in Sources */,
+				93B738D118ECFACF002A2D37 /* AppDelegate.m in Sources */,
+				93B738CD18ECFACF002A2D37 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B738DA18ECFACF002A2D37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B738EC18ECFACF002A2D37 /* Falling_StarsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B738E418ECFACF002A2D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B738BC18ECFACF002A2D37 /* Falling Stars */;
+			targetProxy = 93B738E318ECFACF002A2D37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93B738C918ECFACF002A2D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B738CA18ECFACF002A2D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93B738D218ECFACF002A2D37 /* IPhone4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B738D318ECFACF002A2D37 /* Base */,
+			);
+			name = IPhone4.storyboard;
+			sourceTree = "<group>";
+		};
+		93B738E818ECFACF002A2D37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B738E918ECFACF002A2D37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B738ED18ECFACF002A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93B738EE18ECFACF002A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B738F018ECFACF002A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ingrid Rice (69T82365P4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ingrid Rice (69T82365P4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Falling Stars/Falling Stars-Prefix.pch";
+				INFOPLIST_FILE = "Falling Stars/Falling Stars-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e741b521-2977-4e18-9a97-e60a612b9ee7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93B738F118ECFACF002A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ingrid Rice (69T82365P4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ingrid Rice (69T82365P4)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Falling Stars/Falling Stars-Prefix.pch";
+				INFOPLIST_FILE = "Falling Stars/Falling Stars-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e741b521-2977-4e18-9a97-e60a612b9ee7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93B738F318ECFACF002A2D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Falling Stars.app/Falling Stars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Falling Stars/Falling Stars-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Falling StarsTests/Falling StarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93B738F418ECFACF002A2D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Falling Stars.app/Falling Stars";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Falling Stars/Falling Stars-Prefix.pch";
+				INFOPLIST_FILE = "Falling StarsTests/Falling StarsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B738B818ECFACF002A2D37 /* Build configuration list for PBXProject "Falling Stars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B738ED18ECFACF002A2D37 /* Debug */,
+				93B738EE18ECFACF002A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B738EF18ECFACF002A2D37 /* Build configuration list for PBXNativeTarget "Falling Stars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B738F018ECFACF002A2D37 /* Debug */,
+				93B738F118ECFACF002A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B738F218ECFACF002A2D37 /* Build configuration list for PBXNativeTarget "Falling StarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B738F318ECFACF002A2D37 /* Debug */,
+				93B738F418ECFACF002A2D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B738B518ECFACF002A2D37 /* Project object */;
+}
